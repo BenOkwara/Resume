@@ -169,4 +169,22 @@ a:hover .btn-b{
 .btn-a:hover{
 	background-color: #e83e8c;
 	box-shadow: 1px 1px 0 rgba(0,0,0,.6);
+}
 /*--------------------About----------------------------------------------------*/
+
+.section1{
+	padding: 30px;
+	margin-top: 250px;
+	border-bottom: 2px solid #e3e3e3;
+}
+
+.section1 h4{
+	border-left: 2px solid #54d17a;
+	margin-left: 40%;
+	-text-align: center;
+	padding: 10px;
+	margin-bottom: 90px;
+	margin-top: 90px;
+	text-shadow: 0 1px 0 #e3e3e3;
+	font-size: 40px;
+}
