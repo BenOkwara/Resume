@@ -68,7 +68,7 @@ li a:hover{
 	margin: auto;
 	-z-index: -3;
 	color: #fff;
-	position: fixed;
+	-position: fixed;
 }
 .header_content h1{
 	text-transform: uppercase;
@@ -171,29 +171,71 @@ a:hover .btn-b{
 	box-shadow: 1px 1px 0 rgba(0,0,0,.6);
 }
 /*--------------------About----------------------------------------------------*/
-
-.section1{
+.section1 {
 	padding: 30px;
-	margin-top: 250px;
-	border-bottom: 2px solid #e3e3e3;
+	-margin-top: 250px;
+	-border-bottom: 2px solid #e3e3e3;
+  height: 500px;
 }
-
 .section1 h4{
 	border-left: 2px solid #54d17a;
-	margin-left: 40%;
-	-text-align: center;
+	margin-left: 45%;
 	padding: 10px;
 	margin-bottom: 90px;
-	margin-top: 90px;
+	margin-top: 50px;
 	text-shadow: 0 1px 0 #e3e3e3;
 	font-size: 40px;
 }
 .section1 p{
 	margin-top: -50px;
 	text-transform: lowercase;
-	-color: #9b9b9b;
+	color: #9b9b9b;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 19px;
 	line-height: 28px;
 	letter-spacing: 2px;
+}
+.section1 p::first-letter{
+	text-transform: uppercase;
+}
+.section1 img{
+	float: right;
+	margin-right: 10px;
+	margin-top: -220px;
+	height: 450px;
+}
+.section1 .btn{
+  padding-top: -200px;
+  margin-left: -1px;
+  border: 1px solid #e3e3e3;
+  padding: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  width: 200px;
+  border-radius: 15px;
+  background-color: #54d17a;
+  color: #fff;
+}
+.section1 .btn:hover{
+	text-shadow: 1px 0 0 rgba(0,0,0,.2);
+	box-shadow:  0 1px 0 rgba(0,0,0,.2);
+}
+/*--------------------Background and Interests----------------------------------------------------*/
+.section2{
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+	background-attachment: fixed;
+
+}
+.section2 h4{
+	border-left: 2px solid #54d17a;
+	margin-left: 44%;
+	-text-align: center;
+	padding: 10px;
+	margin-bottom: 90px;
+	margin-top: 100px;
+	text-shadow: 0 1px 0 #e3e3e3;
+	font-size: 40px;
 }
