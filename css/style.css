@@ -20,6 +20,7 @@ body{
   position: relative;
   position: fixed;
   width: 100%;
+  z-index: 999999;
 
 }
 .nav_bar h3{
@@ -258,3 +259,63 @@ a:hover .btn-b{
 	letter-spacing: 2px;
 }
 /*--------------------Work----------------------------------------------------*/
+.section3{
+	height: 600px;
+}
+.section3 h4{
+	border-left: 2px solid #54d17a;
+	margin-left: 44%;
+	-text-align: center;
+	padding: 10px;
+	margin-bottom: 40px;
+	margin-top: 60px;
+	-text-shadow: 0 1px 0 #e3e3e3;
+	font-size: 40px;
+}
+
+
+.section3 ul{
+  margin-top: 170px;
+	-webkit-perspective:1000;
+
+}
+.section3 li{
+	margin-bottom: 40px;
+  padding-left: 50px;
+  -padding-right: 10px;
+}
+
+.section3 ul li{
+	height: 200px;
+	width: 200px;
+	float: left;
+	-margin-right: 30px;
+	list-style: none;
+	position: relative;
+	cursor: pointer;
+}
+li:hover .front{
+	z-index: 0;
+	-webkit-transform:rotateY(180deg);
+}
+li:hover .back{
+	-webkit-transform:rotateY(0);
+}
+.section3 div{
+	height: 100%;
+	width:100%;
+	position: absolute;
+	-webkit-transition:all 1s;
+	-webkit-backface-visibility:hidden;
+	-webkit-box-shadow:0 13px 10px -8px rgba(0,0,0,.5);
+}
+li .front{
+	z-index: 3;
+	text-align: center;
+	-line-height: 200px;
+	-font-size: 0px;
+	background-color: #e3e3e3;
+}
+li .back{
+	-webkit-transform:rotateY(180deg);
+}
