@@ -229,7 +229,7 @@ a:hover .btn-b{
 	background-image: url(../img/back.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 550px;
+	height: 700px;
 	background-attachment: fixed;
 
 }
@@ -248,18 +248,27 @@ a:hover .btn-b{
 }
 .section2 h5{
 	margin:auto;
+	height: 60px;
+	width: 1200px;
 	color: #fff;
+	font-size: 16px;
+	line-height: 20px;
 	text-align: center;
 	margin-bottom: 50px;
+	background-color: rgba(0,0,0,.3);
 	text-shadow: 0 1px 0 #e3e3e3;
 }
 .section2 p{
 	text-align: center;
 	color: #fff;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 19px;
 	line-height: 28px;
 	letter-spacing: 2px;
+	background-color: rgba(0,0,0,.3);
+	text-align: center;
+	width: 900px;
+	margin:auto;
 }
 /*--------------------Work----------------------------------------------------*/
 .section3{
@@ -373,6 +382,7 @@ li .back{
 	font-size: 16px;
 	line-height: 28px;
 	letter-spacing: 2px;
+	display: grid;
 }
  .section_a, .section_b, .section_c{
 	background: #e83e8c;
