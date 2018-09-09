@@ -207,8 +207,9 @@ a:hover .btn-b{
 	height: 450px;
 }
 .section1 .btn{
-  padding-top: -200px;
-  margin-left: -1px;
+  marign-top: -200px;
+  -margin-left: -1px;
+	-transform: translate(30%,70%);
   border: 1px solid #e3e3e3;
   padding: 15px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -217,6 +218,7 @@ a:hover .btn-b{
   border-radius: 15px;
   background-color: #54d17a;
   color: #fff;
+	position: absolute;
 }
 .section1 .btn:hover{
 	text-shadow: 1px 0 0 rgba(0,0,0,.2);
@@ -345,7 +347,7 @@ li .back{
 	line-height: 200px;
 	text-align: center;
 	margin-left: 30px;
-	margin-right: 85px;
+	margin-right: 60px;
 	margin-bottom: 20px;
 	-padding: 20px;
 	border:9px solid #54d17a;
@@ -357,8 +359,9 @@ li .back{
 }
 .section4 h5{
 	margin-bottom: 20px;
-	margin-right: 110px;
+	margin-right: 150px;
 	padding-left: 120px;
+	display: inline;
 
 
 }
@@ -389,10 +392,10 @@ footer{
 	position: cover;
 	width: 100%;
 	padding: 50px;
-	min-height: 405px;
+	min-height: 200px;
 }
 footer ul{
-	transform: translate(19%,90%);
+	transform: translate(21%,90%);
 }
 footer li{
 	list-style: none;
@@ -428,3 +431,16 @@ footer p{
 	letter-spacing: 1px;
 }
 /*--------------------@Media Queries---------------------------------------------------*/
+@media screen and (min-width: 480px) {
+	.nav-bar{
+
+		height: 70px;
+		-background: #fafafa;
+		-display: inline;
+		-border-bottom: 1px solid rgba(0,0,0,.1);
+		-position: fixed;
+		-z-index:999999;
+		-box-shadow: 0 -1px 0 rgba(0,0,0,.3);
+
+	}
+}
