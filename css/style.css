@@ -78,7 +78,7 @@ li a:hover{
 	font-size: 70px;
 	padding: 120px 50px;
 	-background: rgba(0,0,0,.4);
-	width:120px;
+	width:180px;
 	font-family: 'Abril Fatface', cursive;
 	font-weight: lighter;
 }
@@ -93,8 +93,12 @@ li a:hover{
 	-animation: type 7s steps(108);
 	overflow: hidden;
 	white-space: nowrap;
-	width: 600px;
+	width: 500px;
+	margin-left: 30px;
 
+}
+.header_content span{
+	text-shadow: 0 1px solid white;
 }
 span{
 	color:#54d17a;
@@ -333,8 +337,8 @@ li .back{
 }
 /*--------------------skills----------------------------------------------------*/
 .section4{
-	height: 700px;
-	margin-bottom: 50px;
+	height: 670px;
+	-margin-bottom: 50px;
 	margin-top: 300px;
 	background-color: #f5f5f5;
 }
@@ -359,7 +363,7 @@ li .back{
 	margin-left: 30px;
 	margin-right: 60px;
 	margin-bottom: 20px;
-	-padding: 20px;
+	padding: 60px;
 	border:9px solid #54d17a;
 	box-shadow: 0 1px 0 rgba(0,0,0,.1),
 				 0px 2px 7px 2px rgba(0,0,0,.4);
@@ -368,10 +372,12 @@ li .back{
 	-margin-right: 100px;
 }
 .section4 h5{
-	margin-bottom: 20px;
-	margin-right: 150px;
+	margin-bottom: 30px;
+	margin-right: 265px;
 	padding-left: 120px;
 	display: inline;
+	font-size: 20px;
+	margin-top: 20px;
 
 
 }
@@ -384,6 +390,16 @@ li .back{
 	line-height: 28px;
 	letter-spacing: 2px;
 	display: grid;
+	text-align: center;
+	width: 1300px;
+	color: #9b9b9b;
+	font-weight: 300;
+	font-size: 19px;
+	line-height: 28px;
+	letter-spacing: 2px;
+}
+.section4 p::first-line{
+	color: black;
 }
  .section_a, .section_b, .section_c{
 	background: #e83e8c;
