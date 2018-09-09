@@ -382,3 +382,47 @@ li .back{
 .section_a{
 	margin-left: 30px;
 }
+/*--------------------------------footer-----------------------------*/
+footer{
+	background-color: #4a4a4a;
+	position: cover;
+	width: 100%;
+	padding: 50px;
+	min-height: 405px;
+}
+footer ul{
+	transform: translate(19%,90%);
+}
+footer li{
+	list-style: none;
+	display: inline;
+
+}
+footer a{
+	color: #bdbdbd;
+}
+footer a:hover{
+	color: #54d17a;
+	text-decoration: none;
+
+}
+footer h1{
+	font-size: 55px;
+	color: rgba(225,225,225,.5);
+	transform:translate(30%,90%);
+	background-image:url("https://png.pngtree.com/element_origin_min_pic/16/11/01/195818810a6636b.jpg");
+	background-repeat: repeat-x;
+	background-position: top;
+	background-size: cover;
+	-webkit-background-clip:text;
+	-animation: animate 15s  infinite;
+	text-shadow: 0 2px 0 rgba(0,0,0,.5);
+}
+footer p{
+	transform: translate(68%,450%);
+	color: #e3e3e3;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 23px;
+	letter-spacing: 1px;
+}
