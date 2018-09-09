@@ -63,13 +63,14 @@ li a:hover{
   background-size: cover;
   background-attachment:fixed;
   height: 630px;
+	z-index: -200;
 }
 .header_content{
 
 	margin: auto;
 	-z-index: -3;
 	color: #fff;
-	-position: fixed;
+	position: absolute;
 }
 .header_content h1{
 	text-transform: uppercase;
@@ -89,7 +90,7 @@ li a:hover{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: thin;
 	background: rgba(0,0,0,.5);
-	animation: type 7s steps(108);
+	-animation: type 7s steps(108);
 	overflow: hidden;
 	white-space: nowrap;
 	width: 600px;
@@ -426,3 +427,4 @@ footer p{
 	line-height: 23px;
 	letter-spacing: 1px;
 }
+/*--------------------@Media Queries---------------------------------------------------*/
